@@ -1,8 +1,48 @@
 main{
-    background-color: pink
+    background-color: rgb(180, 116, 116); 
+    margin: 50px;  
+    font-size: xx-large;
 }
 
-p{
-    background-color: green;
-    border: small dashed black;
+body {
+    background-color: rgb(101, 75, 80);
+    color: white;
+    font-size: large;
+    font-weight: bold;
 }
+.column {
+    float:inherit;
+    width:fit-content;
+    padding: 100px;
+  }
+
+
+#pictureEffects {
+    background-color: rgb(180, 116, 116);
+    border: 10px solid rgb(104, 145, 158);
+    padding: 4vw;
+
+}   
+
+section{
+    padding:20px;
+    background-color: rgb(104, 145, 158);
+    text-align: right;
+}
+
+p {
+    background-color: rgb(104, 145, 158);
+    margin:40px;
+    padding:50px;
+    border: 8px rgb(36, 88, 165) dotted;
+    font-size: x-large;
+
+}
+
+
+img {
+    display: block;
+    margin-left:    auto;
+    margin-right: auto;
+}
+
