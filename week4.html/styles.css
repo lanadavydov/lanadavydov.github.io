@@ -1,0 +1,104 @@
+main{
+    background-color: #60411c; 
+    margin: 80px;  
+}
+
+body {
+    background-color: #2e1d09;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+
+.flexbox-container {
+    display: flex;
+
+}
+
+.flexbox-item {
+    width: 200px;
+    margin: 20px;
+    border: 10px dashed #60411c;
+    border-width: 10px;
+    background-color: rgb(176, 155, 109);
+}
+
+.flexbox-item-1 {
+    font-size: 35px;
+    font-weight: 800;
+    color: #2e1d09;
+    min-height: 600px;
+    flex-grow: 10;
+    flex-basis: 0;
+    align-self: center;
+    order: 1;
+    padding: 100px
+
+}
+
+.flexbox-item-2 {
+    height: 580px;
+    flex-grow: 2;
+    flex-basis: 0;
+    order: 3;
+    padding: 40px;
+    font-size: 30px;
+    color: #40280c;
+}
+
+.flexbox-item-3 {
+    height: 780px;
+    flex-grow: 2;
+    flex-basis: 0;
+    order: 2;
+    padding: 40px;
+    font-size: 40px;
+    color: #57360f;
+}
+
+.flexbox-item-4 {
+    height: 380px;
+    flex-grow: 2;
+    flex-basis: 0;
+    padding: 40px;
+    order: 4;
+    font-size: 30px;
+    color: #6c4311;
+}
+
+.flexbox-item-5 {
+    min-height: 500px;
+    flex-grow: 2;
+    flex-basis: 0;
+    align-self: center;
+    order: 1;
+
+    font-size: 40px;
+    font-weight: 800;
+    color: #2e1d09;
+}
+
+.flexbox-item-6 {
+    min-height: 500px;
+    flex-grow: 2;
+    flex-basis: 0;
+    align-self: center;
+    order: 1;
+
+    font-size: 40px;
+    font-weight: 800;
+    color: #2e1d09;
+}
+
+.flexbox-item-7 {
+    min-height: 500px;
+    flex-grow: 2;
+    flex-basis: 0;
+    align-self: center;
+    order: 1;
+
+    font-size: 40px;
+    font-weight: 800;
+    color: #2e1d09;
+}
+
