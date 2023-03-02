@@ -1,0 +1,82 @@
+body {
+    background-color: rgb(69, 20, 80);
+}
+
+
+main {
+    background-color: rgb(69, 20, 80);
+    text-align: right;
+    color: rgb(144, 113, 151);
+    font-size: 60px;
+}
+
+
+#week1{
+    border-radius: 25px;
+    border: 10px solid rgb(184, 60, 11); 
+    background-color: rgb(203, 114, 79);
+    display: grid;
+    margin: 60px; 
+    padding: 25px;
+    font-weight: 900;
+    text-align: center;
+    
+  }
+
+  #week2{
+    border-radius: 25px;
+    border: 10px solid rgb(198, 79, 160); 
+    background-color: rgb(229, 140, 201);
+    display: grid;
+    margin: 60px; 
+    padding: 25px;
+    font-weight: 900;
+    text-align: center;
+  }
+
+  #week3{
+    border-radius: 25px;
+    border: 10px solid rgb(105, 140, 168); 
+    background-color: rgb(140, 189, 229);
+    display: grid;
+    margin: 60px; 
+    padding: 25px;
+    font-weight: 900;
+    text-align: center;
+  }
+
+  #week4{
+    border-radius: 25px;
+    border: 10px solid rgb(98, 158, 107); 
+    background-color: rgb(144, 211, 160);
+    display: grid;
+    margin: 60px; 
+    padding: 25px;
+    font-weight: 900;
+    text-align: center;
+  }
+
+  #week5{
+    border-radius: 25px;
+    border: 10px solid rgb(97, 60, 108); 
+    background-color: rgb(131, 95, 141);
+    display: grid;
+    margin: 60px; 
+    padding: 25px;
+    font-weight: 900;
+    text-align: center;
+  }
+
+  /* #week6{
+    border-radius: 25px;
+    border: 10px solid rgb(146, 64, 72); 
+    background-color: rgb(176, 98, 106);
+    display: grid;
+    margin: 60px; 
+    padding: 25px;
+    font-weight: 900;
+    text-align: center;
+  } */
+
+  
+
