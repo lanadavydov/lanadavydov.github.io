@@ -1,0 +1,15 @@
+main{
+    background-color: rgb(3, 7, 79);
+    color: white;
+    height: 40vh;
+    padding: 40vw;
+}
+
+body{
+    background-color: rgb(61, 65, 151);
+}
+
+button{
+    border-radius: 100%;
+    background-color: rgb(245, 190, 103);
+}
