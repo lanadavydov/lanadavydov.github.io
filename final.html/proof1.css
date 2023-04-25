@@ -1,0 +1,31 @@
+#main {
+    background-color: rgb(193, 102, 102);
+    color: azure;
+}
+
+.img-box {
+    position: fixed;
+}
+
+#menu {
+    display: grid;
+    background-color: rgb(52, 80, 121);
+    color: azure;
+    padding: 10px;
+    grid: repeat(1, 60px) / auto-flow 30%;
+    align-self: center;
+
+  }
+
+#overlap {
+    display: grid;
+    background-color: rgb(121, 52, 107);
+    position:fixed;
+    top: 3;
+    
+    color: azure;
+    padding: 10px;
+    grid: repeat(1, 60px) / auto-flow 30%;
+    align-self: center;
+
+  }
