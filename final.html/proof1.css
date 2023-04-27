@@ -1,3 +1,9 @@
+body {
+  background-color: rgb(171, 111, 108);
+  font-size: 16px;
+  font-weight: 600;
+}
+
 #main {
     background-color: rgb(193, 102, 102);
     color: azure;
