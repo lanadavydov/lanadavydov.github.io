@@ -1,0 +1,111 @@
+ body {
+    background-color: rgb(171, 111, 108);
+    font-size: 16px;
+    font-weight: 600;
+  } 
+
+  #landingButton{
+    border-radius: 25px;
+    border: 10px solid rgb(184, 60, 11); 
+    background-color: rgb(203, 114, 79);
+    display: grid;
+    margin: 60px; 
+    padding: 25px;
+    font-weight: 900;
+    text-align: center;
+    
+  }
+
+  #imageShelf1 {
+    display: grid;
+    align-content: center;
+    grid: repeat(1, 60px) / auto-flow 30%;
+    color: black
+
+  }
+
+  #imageShelf2 {
+    display: grid;
+    margin-left: 15%; 
+    align-content: center;
+    grid: repeat(1, 60px) / auto-flow 33%;
+    color: black
+
+
+  }
+
+  #imageShelf3 {
+    display: grid;
+    margin-left: 30%;
+    align-content: center;
+    grid: repeat(1, 60px) / auto-flow 36%;
+    color: black
+
+
+  }
+
+  #imageShelf4 {
+    display: grid;
+    margin-right: 15%;
+    align-content: center;
+    grid: repeat(1, 60px) / auto-flow 36%;
+    color: black
+
+
+  }
+
+  #imageShelf5 {
+    display: grid;
+    margin-right: 30%;
+    align-content: center;
+    grid: repeat(1, 60px) / auto-flow 36%;
+    color: black
+
+
+  }
+
+  /* #main {
+      background-color: rgb(193, 102, 102);
+      color: azure;
+  } */
+  
+  .img-box {
+      position: fixed;
+  }
+
+  #animation1{
+    display: flex;
+    text-align: center; 
+    
+
+    
+    animation:normal;
+    transform: translateY(100%);
+    animation-duration: 30s;
+    animation-name: throwFruit;
+      
+}
+
+@keyframes throwFruit {
+    from {
+    margin-bottom:-100%;
+    
+    }
+
+    to {
+    margin-top:10%;
+    }
+}
+
+  #overlap {
+      display: grid;
+      background-color: rgb(121, 52, 107);
+      position:fixed;
+      top: 3;
+      
+      color: azure;
+      padding: 10px;
+      grid: repeat(1, 60px) / auto-flow 30%;
+      align-self: center;
+  
+    }
