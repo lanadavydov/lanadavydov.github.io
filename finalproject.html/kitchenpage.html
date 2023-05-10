@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="style.css" rel="stylesheet">
+    <script src="javascript.js" defer></script>
+    <title>My Kitchen</title>
+    <style>
+        body {
+          background-image: url('kitchen.png');
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          
+        }
+    </style>
+</head>
+<body>
+
+    <!-- menu buttons on the top of the screen -->
+    <div id="menu">
+        <div id="landing">
+            <div onclick="window.location.href = 'landingpage.html';">home</div>
+        </div>
+        <div id="myRecipesButton">
+            <div onclick="window.location.href = 'myrecipes.html';">my recipes</div>
+        </div>
+        <div id="myRemindersButton">
+            <div onclick="window.location.href = 'todolist.html';">my reminders</div>
+        </div>
+    </div>
+    <div>
+        <!-- pulsing buttons on kitchen page -->
+        <div id="overlap1">
+            <div><a href="cookie.html"><span class="pulse"></span></a></div> 
+        </div>
+        <div id="overlap2">
+            <div><a href="cajunpasta.html"><span class="pulse"></span></a></div> 
+        </div>
+        <div id="overlap3">
+            <div><a href="bakedziti.html"><span class="pulse"></span></a></div> 
+        </div>
+        <div id="overlap4">
+            <div><a href="brownies.html"><span class="pulse"></span></a></div> 
+        </div>
+        <div id="overlap5">
+            <div><a href="todolist.html"><span class="pulse"></span></a></div> 
+        </div>
+        <div id="overlap6">
+            <div><a href="myrecipes.html"><span class="pulse"></span></a></div> 
+        </div>
+    </div>
+
+
+    
+</body>
+</html>

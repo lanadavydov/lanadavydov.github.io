@@ -1,0 +1,350 @@
+body {
+    background-color: rgb(171, 111, 108);
+    font-size: 16px;
+    font-weight: 600;
+  } 
+
+  /* landing button that leads to main kitchen page */
+  #landingButton{
+    border-radius: 25px;
+    border: 10px solid rgb(184, 60, 11); 
+    background-color: rgb(203, 114, 79);
+    display: grid;
+    margin: 60px; 
+    padding: 25px;
+    font-weight: 900;
+    text-align: center;
+    
+  }
+
+  /* pulsing effect for the buttons on the kitchen page*/
+  .pulse {
+    display: block;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background-color: rgb(155, 145, 121);
+    cursor: pointer;
+    box-shadow: 0 0 0 rgba(155,145,121, 0.4);
+    animation: pulse 2s infinite;
+  }
+  .pulse:hover {
+    animation: none;
+  }
+  
+  @-webkit-keyframes pulse {
+    0% {
+      -webkit-box-shadow: 0 0 0 0 rgba(204,169,44, 0.4);
+    }
+    70% {
+        -webkit-box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+    }
+    100% {
+        -webkit-box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+    }
+  }
+  @keyframes pulse {
+    0% {
+      -moz-box-shadow: 0 0 0 0 rgba(204,169,44, 0.4);
+      box-shadow: 0 0 0 0 rgba(204,169,44, 0.4);
+    }
+    70% {
+        -moz-box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+        box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+    }
+    100% {
+        -moz-box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+        box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+    }
+  }
+
+  /* menu display */
+  #menu {
+    display: grid;
+    background-color: rgb(52, 80, 121);
+    color: azure;
+    margin: -10px;
+    padding: 10px;
+    grid: repeat(1, 60px) / auto-flow 30%;
+    align-self: center;
+
+  }
+  /* grid display for image animation on landing page */
+  #imageShelf1 {
+    display: grid;
+    align-content: center;
+    grid: repeat(1, 60px) / auto-flow 30%;
+    color: black
+
+  }
+
+  #imageShelf2 {
+    display: grid;
+    margin-left: 15%; 
+    align-content: center;
+    grid: repeat(1, 60px) / auto-flow 33%;
+    color: black
+
+
+  }
+
+  #imageShelf3 {
+    display: grid;
+    margin-left: 30%;
+    align-content: center;
+    grid: repeat(1, 60px) / auto-flow 36%;
+    color: black
+
+
+  }
+
+  #imageShelf4 {
+    display: grid;
+    margin-right: 15%;
+    align-content: center;
+    grid: repeat(1, 60px) / auto-flow 36%;
+    color: black
+
+
+  }
+
+  #imageShelf5 {
+    display: grid;
+    margin-right: 30%;
+    align-content: center;
+    grid: repeat(1, 60px) / auto-flow 36%;
+    color: black
+
+
+  }
+  
+
+  /* landing page fruit animation */
+  #animation1{
+    display: flex;
+    text-align: center; 
+    
+
+    
+    animation:normal;
+    transform: translateY(100%);
+    animation-duration: 30s;
+    animation-name: throwFruit;
+      
+}
+
+@keyframes throwFruit {
+    from {
+    margin-bottom:-100%;
+    
+    }
+
+    to {
+    margin-top:10%;
+    }
+}
+
+/* buttons on kitchen page */
+  #overlap1 {
+      display: grid;
+      position:fixed;
+      position: fixed;
+      bottom: 36%; 
+      right: 31.5%;
+      margin-left: 30%;
+      
+      color: azure;
+      padding: 10px;
+      grid: repeat(1, 60px) / auto-flow 30%;
+      align-self: center;
+  
+    }
+
+    #overlap2 {
+      display: grid;
+      position:fixed;
+      bottom: 51%; 
+      right: 57.5%;
+      margin-left: 30%;
+      
+      color: azure;
+      padding: 10px;
+      grid: repeat(1, 60px) / auto-flow 30%;
+      align-self: center;
+    }
+
+    #overlap3 {
+      display: grid;
+      position:fixed;
+      bottom: 23%; 
+      right: 52%;
+      margin-left: 30%;
+      
+      color: azure;
+      padding: 10px;
+      grid: repeat(1, 60px) / auto-flow 30%;
+      align-self: center;
+    }
+
+    #overlap4 {
+      display: grid;
+      position:fixed;
+      bottom: 36%; 
+      right: 13%;
+      margin-left: 30%;
+      
+      color: azure;
+      padding: 10px;
+      grid: repeat(1, 60px) / auto-flow 30%;
+      align-self: center;
+    }
+
+    #overlap5 {
+      display: grid;
+      position:fixed;
+      bottom: 36%; 
+      left: -8%;
+      margin-left: 30%;
+      
+      color: azure;
+      padding: 10px;
+      grid: repeat(1, 60px) / auto-flow 30%;
+      align-self: center;
+    }
+
+    #overlap6 {
+      display: grid;
+      position:fixed;
+      bottom: 13.5%; 
+      right: 16%;
+      margin-left: 30%;
+      
+      color: azure;
+      padding: 10px;
+      grid: repeat(1, 60px) / auto-flow 30%;
+      align-self: center;
+    }
+
+    /* return button to kitchen */
+    #returnButton{
+      position:fixed;
+      top: 12%; 
+      left: 2%;
+      border-radius: 25px;
+      background-color: rgb(220, 223, 226);
+      color:rgb(0, 0, 0);
+      display: grid;
+      padding: 15px;
+      font-weight: 50%;
+      text-align: center;
+    }
+    
+    /* button that leads back to the landing page */
+    #landing{
+      color:rgb(223, 221, 221);
+      display: grid;
+      padding: 15px;
+      font-weight: 50%;
+      text-align: center;
+    }
+    
+    /* button that leads to cookie recipe page */
+    #cookieButton{
+      bottom: 45%; 
+      left: 36%;
+      border-radius: 10px;
+      background-color: rgb(216, 202, 180);
+      position:fixed;
+      color:rgb(0, 0, 0);
+      transform: rotate(8deg);
+      margin: 15px;
+      padding: 15px;
+      font-size: 27px;
+      font-weight: 50%;
+      text-align: center;
+    }
+
+    /* button that leads to brownie recipe page */
+    #brownieButton{
+      bottom: 23%; 
+      left: 35%;
+      border-radius: 10px;
+      background-color: rgb(216, 202, 180);
+      position:fixed;
+      color:rgb(0, 0, 0);
+      transform: rotate(-1.6deg);
+      margin: 15px;
+      padding: 15px;
+      font-size: 25px;
+      font-weight: 50%;
+      text-align: center;
+    }
+
+    /* button that leads to baked ziti recipe page */
+    #zitiButton{
+      bottom: 49%; 
+      right: 24.3%;
+      border-radius: 10px;
+      background-color: rgb(216, 202, 180);
+      position:fixed;
+      color:rgb(0, 0, 0);
+      transform: rotate(-3deg);
+      margin: 15px;
+      padding: 15px;
+      font-size: 25px;
+      font-weight: 50%;
+      text-align: center;
+    }
+
+    /* button that leads to cajun pasta recipe page */
+    #cajunButton{
+      bottom: 23%; 
+      right: 23.8%;
+      border-radius: 10px;
+      background-color: rgb(216, 202, 180);
+      position:fixed;
+      color:rgb(0, 0, 0);
+      transform: rotate(2deg);
+      margin: 15px;
+      padding: 10px;
+      font-size: 24px;
+      font-weight: 50%;
+      text-align: center;
+    }
+
+    /* button that leads to recipebook page */
+    #myRecipesButton{
+      color:rgb(223, 221, 221);
+      display: grid;
+      padding: 15px;
+      font-weight: 50%;
+      text-align: center;
+    }
+
+    /* button that leads to interactive to-do list page */
+    #myRemindersButton{
+      color:rgb(223, 221, 221);
+      display: grid;
+      padding: 15px;
+      font-weight: 50%;
+      text-align: center;
+    }
+
+    /* interactive textbox on to-do list page */
+    textarea {
+        background-color: #e4d079;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 15px;
+        display: block;
+        position:fixed;
+        top: 40%; 
+        right: 22%;
+        padding: 50px;
+        max-height: 100%;
+        max-width: 100%;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        box-shadow: 1px 1px 1px #999;
+    }
+
+   
